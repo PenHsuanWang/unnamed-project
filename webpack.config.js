@@ -5,11 +5,11 @@ module.exports = {
     entry: './src/js/index.js',
     devtool: 'inline-source-map',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, './server/src/main/resources/static'),
         filename: 'js/bundle.js'
     },
     devServer: {
-        contentBase: './dist'
+        contentBase: './server/src/main/resources/static'
     },
     plugins: [
         new HtmlWebpackPlugin({

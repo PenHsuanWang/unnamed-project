@@ -1,5 +1,3 @@
-import "../style.scss"
-
 const textarea = document.querySelector("textarea");
 
 // 從 server 端 GET 資料，route 為 /api

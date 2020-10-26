@@ -1,5 +1,13 @@
-$color: blue;
-
-.container{
-    color: $color;
+form button {
+	background-color: #696969;
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
+    border: none;
+    &:hover {
+        background-color: #2F4F4F;
+    }
+    &:focus {
+        outline: none;
+    }
 }

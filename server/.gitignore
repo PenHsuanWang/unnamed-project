@@ -25,6 +25,7 @@ target/
 
 ### build static file ###
 **/static
+
 /dist/
 /nbdist/
 /.nb-gradle/
